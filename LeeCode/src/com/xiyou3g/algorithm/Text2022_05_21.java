@@ -32,6 +32,7 @@ public class Text2022_05_21 {
     }
 
 
+/*
     //排序，因为有2N个元素，N个相等，所以只有相等元素为所求结果
     public int repeatedNTimes(int[] nums) {
         Arrays.sort(nums);
@@ -40,7 +41,9 @@ public class Text2022_05_21 {
                 return nums[i];
         return -1;
     }
+*/
 
+/*
     //哈希set，和之前的方法是一样的，不需要排序就能够找出其答案
     public int repeatedNTimes(int[] nums) {
         Set<Integer> set = new HashSet<>();
@@ -53,5 +56,6 @@ public class Text2022_05_21 {
         }
         return -1;
     }
+*/
 
 }
